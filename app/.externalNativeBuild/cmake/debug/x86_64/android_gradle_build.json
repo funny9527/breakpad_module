@@ -1,0 +1,38 @@
+
+{
+	"buildFiles" : [ "/Users/user/work/breakpad_module/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/user/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/user/work/breakpad_module/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/user/Library/Android/sdk/cmake/3.6.3155560/bin/cmake --build /Users/user/work/breakpad_module/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/user/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/user/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64  -Dnative_lib_EXPORTS -isystem /Users/user/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/user/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/user/Library/Android/sdk/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/user/work/breakpad_module/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/user/work/breakpad_module/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/user/work/breakpad_module/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "4436481905777002117"
+		}
+	},
+	"toolchains" : 
+	{
+		"4436481905777002117" : 
+		{
+			"cCompilerExecutable" : "/Users/user/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/user/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
